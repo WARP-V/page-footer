@@ -1,0 +1,10 @@
+body {
+  margin: 0px;
+}
+
+#page-footer {
+  height: 212px;
+  width: calc(100% - 80px);
+  background-color: #111;
+  padding: 40px 40px 0px;
+}
