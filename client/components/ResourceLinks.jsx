@@ -1,7 +1,8 @@
 import React from 'react';
 
 const ResourceLinks = () => (
-  <div id="rlinks" className="link-block internal open">
+  <div id="rlinks" className="block internal open">
+    <span className="expand"><i className="material-icons">add</i></span>
     <ul>
       <li className="footer-link major"><span>GIFT CARDS</span></li>
       <li className="footer-link major"><span>STUDENT DISCOUNT</span></li>

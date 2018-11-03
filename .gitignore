@@ -6,9 +6,6 @@
 node_modules/
 package-lock.json
 
-## webpack ##
-webpack.config.js
-
 ## compiled files ##
 public/bundle.js
 

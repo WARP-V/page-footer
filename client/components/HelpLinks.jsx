@@ -1,7 +1,8 @@
 import React from 'react';
 
 const HelpLinks = () => (
-  <div id="hlinks" className="link-block internal open">
+  <div id="hlinks" className="block internal closed">
+    <span className="expand"><i className="material-icons">add</i></span>
     <ul>
       <li className="footer-link major"><span>GET HELP</span></li>
       <li className="footer-link minor"><span>Order Status</span></li>
