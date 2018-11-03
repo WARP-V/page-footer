@@ -10,10 +10,10 @@ ul {
 
 span {
   max-width: calc(100% - 5px);
-  overflow: hidden;
+  overflow:hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  display: inline-block;
+  display:inline-block;
   line-height: 1;
 }
 
@@ -24,23 +24,10 @@ span {
   padding: 30px 20px 0px;
 }
 
-#footer-links {
-  max-width: 1112px;
-  margin: 0px auto;
-}
-
 .link-block {
   float: left;
   display: inline-block;
-  padding: 0px 0px 0px 8px;
-}
-
-.link-block.internal {
-  width: calc(20% - 8px);
-}
-
-.link-block.external {
-  width: calc(40% - 8px);
+  width: 25%;
 }
 
 .link-block.open {
@@ -50,8 +37,8 @@ span {
 #llinks {
   float: left;
   display: inline-block;
-  width: 100%;
-  height: 19px;
+  width:100%;
+  height:19px;
   padding: 12px 0px 5px;
   border-top: solid 0.5px #7e7e7e;
 }
