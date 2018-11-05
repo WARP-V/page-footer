@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './../styles/block.css';
+require('./../styles/block.css');
 
 const AboutLinks = () => (
   <div id="hlinks" className="block internal closed">
@@ -15,6 +15,6 @@ const AboutLinks = () => (
       <li className="link minor"><span>CA Supply Chain Act</span></li>
     </ul>
   </div>
-)
+);
 
 export default AboutLinks;

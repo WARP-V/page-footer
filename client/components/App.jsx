@@ -6,7 +6,7 @@ import AboutLinks from './AboutLinks';
 import SocialLinks from './SocialLinks';
 import LegalLinks from './LegalLinks';
 
-import styles from './../styles/app.css';
+require('./../styles/app.css');
 
 const App = () => (
   <div id="page-footer">

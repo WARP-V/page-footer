@@ -54,7 +54,7 @@ img {
   position:absolute;
   width: calc(60% - 20px);
   height: 225px;
-  bottom: 20px;
+  top: 8px;
   right: 10px;
 }
 

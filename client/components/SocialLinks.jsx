@@ -1,9 +1,11 @@
 import React from 'react';
 
-import styles from './../styles/block.css';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faFacebookF, faYoutubeSquare, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import {
+  faTwitter, faFacebookF, faYoutubeSquare, faInstagram,
+} from '@fortawesome/free-brands-svg-icons';
+
+require('./../styles/block.css');
 
 const SocialLinks = () => (
   <div id="slinks" className="block external">
@@ -14,6 +16,6 @@ const SocialLinks = () => (
       <li className="link social"><div className="circle"><FontAwesomeIcon icon={faTwitter} transform="shrink-4" /></div></li>
     </ul>
   </div>
-)
+);
 
 export default SocialLinks;

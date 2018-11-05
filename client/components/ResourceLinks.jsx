@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './../styles/block.css';
+require('./../styles/block.css');
 
 const ResourceLinks = () => (
   <div id="rlinks" className="block internal open">
@@ -14,6 +14,6 @@ const ResourceLinks = () => (
       <li className="link major"><span>SITE FEEDBACK</span></li>
     </ul>
   </div>
-)
+);
 
 export default ResourceLinks;

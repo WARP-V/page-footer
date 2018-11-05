@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './../styles/block.css';
+require('./../styles/block.css');
 
 const HelpLinks = () => (
   <div id="hlinks" className="block internal closed">
@@ -14,6 +14,6 @@ const HelpLinks = () => (
       <li className="link minor"><span>Contact Us</span></li>
     </ul>
   </div>
-)
+);
 
 export default HelpLinks;
