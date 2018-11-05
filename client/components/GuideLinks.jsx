@@ -1,49 +1,49 @@
 import React from 'react';
 
+import styles from './../styles/bline.css';
+
 class GuideLinks extends React.Component {
   
   constructor() {
     super();
   }
 
-
-
   render() {
     return(
       <div id="glinks">
         <div className="popup">
           <div className="list">
-            <span className="item">Nike Air</span>
-            <span className="item">Nike VaporMax</span>
-            <span className="item">Nike Free</span>
-            <span className="item">Nike Lunarion</span>
-            <span className="item">Nike Air Force 1</span>
-            <span className="item">Boys</span>
-            <span className="item">Basketball</span>
-            <span className="item">Soccer</span>
-            <span className="item">Football</span>
+            <span className="link guide grey">Nike Air</span>
+            <span className="link guide grey">Nike VaporMax</span>
+            <span className="link guide grey">Nike Free</span>
+            <span className="link guide grey">Nike Lunarion</span>
+            <span className="link guide grey">Nike Air Force 1</span>
+            <span className="link guide grey">Boys</span>
+            <span className="link guide grey">Basketball</span>
+            <span className="link guide grey">Soccer</span>
+            <span className="link guide grey">Football</span>
           </div>
           <div className="list">
-            <span className="item">Nike Hyperadapt</span>
-            <span className="item">Nike Flyleather</span>
-            <span className="item">Nike ZoomX</span>
-            <span className="item">NBA</span>
-            <span className="item">Nike Air Max</span>
-            <span className="item">Girls</span>
-            <span className="item">Golf</span>
-            <span className="item">Skateboarding</span>
-            <span className="item">Baseball</span>
+            <span className="link guide grey">Nike Hyperadapt</span>
+            <span className="link guide grey">Nike Flyleather</span>
+            <span className="link guide grey">Nike ZoomX</span>
+            <span className="link guide grey">NBA</span>
+            <span className="link guide grey">Nike Air Max</span>
+            <span className="link guide grey">Girls</span>
+            <span className="link guide grey">Golf</span>
+            <span className="link guide grey">Skateboarding</span>
+            <span className="link guide grey">Baseball</span>
           </div>
           <div className="list">
-            <span className="item react">Nike React</span>
-            <span className="item">Nike Flyknit</span>
-            <span className="item">Nike FlyEase</span>
-            <span className="item">NBA Jerseys</span>
-            <span className="item">Nike Pegasus</span>
-            <span className="item">Running</span>
-            <span className="item">Nike Sportswear</span>
-            <span className="item">Tennis</span>
-            <span className="item">Nike Promo Codes</span>
+            <span className="link guide grey react">Nike React</span>
+            <span className="link guide grey">Nike Flyknit</span>
+            <span className="link guide grey">Nike FlyEase</span>
+            <span className="link guide grey">NBA Jerseys</span>
+            <span className="link guide grey">Nike Pegasus</span>
+            <span className="link guide grey">Running</span>
+            <span className="link guide grey">Nike Sportswear</span>
+            <span className="link guide grey">Tennis</span>
+            <span className="link guide grey">Nike Promo Codes</span>
           </div>
         </div>
         <div className="highlight"></div>

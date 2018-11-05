@@ -1,0 +1,61 @@
+.block {
+  float: left;
+  display: inline-block;
+  padding: 0px 0px 0px 8px;
+}
+
+.block.internal {
+  width: calc(20% - 8px);
+}
+
+.block.external {
+  width: calc(40% - 8px);
+}
+
+.block.open {
+  height: 185px !important;
+}
+
+.expand {
+  position: absolute;
+  display: none;
+  right: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.expand i {
+  font-size: 16px;
+  color: #7e7e7e;
+  cursor: pointer;
+}
+
+.expand i:hover {
+  color: #ffffff;
+}
+
+@media all and (max-width: 510px) {
+
+  .block {
+    display: block !important;
+    width: calc(100% - 8px) !important;
+    height: 25px !important;
+    overflow: hidden;
+    border-top: solid 0.5px #7e7e7e;
+    padding: 10px 0px 0px 8px;
+  }
+
+  .block.closed .expand {
+    display: inline-block;
+  }
+
+  .social {
+    float: left !important;
+  }
+
+  .social .circle {
+    margin: 0px 12px 12px 0px !important;
+  }
+
+}
+

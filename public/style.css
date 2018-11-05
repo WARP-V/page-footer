@@ -4,7 +4,7 @@
   width: calc(100% - 40px);
   background-color: #111;
   padding: 30px 20px 0px;
-  transition: height 0.5s, padding 0.5s;
+  transition: height 0.5s;
 }
 
 #page-footer ul {
@@ -131,7 +131,7 @@
    width: 11.5%;
 }
 
-#footer-links .bline #ll3:hover div {
+#footer-links .bline #ll5:hover div {
   display: block;
 }
 
@@ -139,7 +139,8 @@
   width:0px;
   display: none;
   position:absolute;
-  width: calc(50% - 20px);
+  width: calc(60% - 20px);
+  min-width: 400px;
   height: 225px;
   bottom: 20px;
   right: 10px;
@@ -155,23 +156,10 @@
 
 #glinks .popup .list {
   width: calc(100%/3 - 10px);
-  padding: 15px 0px 0px 10px;
+  height: calc(100% - 25px);
+  padding: 25px 0px 0px 10px;
   float: left;
   display: inline-block;
-}
-
-#glinks .popup .list .item {
-  font-family: 'Helvetica Neue';
-  font-size: 9px;
-  color: #7e7e7e;
-  cursor: pointer;
-  font-weight: 400;
-  margin-bottom: 8px;
-  width: calc(100% - 5px);
-}
-
-#glinks .popup .list .item:hover {
-  color: #fff;
 }
 
 #glinks .highlight {
@@ -182,40 +170,51 @@
   position: absolute;
   bottom: 12px;
   z-index:999;
-  right: 175px;
+  right: 46%;
 }
 
-.footer-link {
+#footer-links .link {
   cursor: pointer;
-  line-height: 2;
   font-weight: 400;
-  margin-bottom: 4px;
 }
 
-.footer-link.minor {
+#footer-links .link.guide {
+  height: 19px !important;
+  padding: 0 !important;
+  white-space: nowrap !important;
+  float: left !important;
+  text-align: left !important;
+}
+
+#footer-links .link.minor {
   font-family: 'Helvetica Neue';
   font-size: 9px;
   color: #7e7e7e;
+  line-height: 2;
+  margin-bottom: 4px;
 }
 
-.footer-link.minor:hover {
+#footer-links .link.minor:hover {
   color: #fff;
 }
 
-.footer-link.major {
+#footer-links .link.major {
   font-family: 'Roboto Condensed';
   font-size: 11px;
   color: #fff;
+  line-height: 2;
+  margin-bottom: 4px;
 }
 
-.footer-link.social {
+#footer-links .link.social {
   width: 28px;
   height: 28px;
   float: right;
+  line-height: 2;
   margin: 0;
 }
 
-.footer-link.social .circle {
+#footer-links .link.social .circle {
   width: 16px;
   height: 16px;
   display: inline-block;
@@ -224,11 +223,11 @@
   margin: 0px 0px 12px 12px;
 }
 
-.footer-link.social .circle:hover {
+#footer-links .link.social .circle:hover {
   background-color: #fff;
 }
 
-.footer-link.social svg {
+#footer-links .link.social svg {
   width: 14px;
   height: 14px;
   color: #000;
@@ -242,33 +241,31 @@
   font-weight: 700 !important;
 }
 
+@media all and (max-width: 690px) {
+  #glinks .highlight {
+    right: calc(22% + 20px)
+  }
+}
+
 @media all and (max-width: 510px) {
 
   #page-footer {
     height: 382px;
-    padding: 25px 20px 0px;
+    padding: 19px 20px 0px;
     transition: height 0s;
   }
 
   #footer-links .block {
     display: block !important;
-    width: 100% !important;
+    width: calc(100% - 8px) !important;
     height: 25px !important;
     overflow: hidden;
     border-top: solid 0.5px #7e7e7e;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 8px;
   }
 
   #footer-links .block.closed .expand {
     display: inline-block;
-  }
-
-  #footer-links .major {
-    padding-left: 8px;
-  }
-
-  #footer-links .minor {
-    padding-left: 8px;
   }
 
   #footer-links .social {
@@ -276,7 +273,7 @@
   }
 
   #footer-links .social .circle {
-    margin: 0px 12px 12px 0px;
+    margin: 0px 12px 12px 0px !important;
   }
  
   #footer-links .bline {
@@ -293,6 +290,10 @@
   #footer-links .bline .link.right {
     position: relative;
     top: -42px;
+  }
+
+  #footer-links .bline #ll5:hover div {
+    display: none !important;
   }
 }
 

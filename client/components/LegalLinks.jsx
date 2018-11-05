@@ -2,6 +2,8 @@ import React from 'react';
 
 import GuideLinks from './GuideLinks';
 
+import styles from './../styles/bline.css';
+
 class LegalLinks extends React.Component { 
 
   render() {
