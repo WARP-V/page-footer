@@ -1,9 +1,9 @@
-img {
+#page-footer img {
   margin: -1px 10px 0px 0px;
   cursor: pointer;
 }
 
-.bline {
+#page-footer .bline {
   float: left;
   display: inline-block;
   width: 100%;
@@ -13,7 +13,7 @@ img {
   transition: height 0.5s;
 }
 
-.link {
+#page-footer .link {
   font-family: 'Helvetica Neue';
   font-size: 9px;
   padding: 1px 0px;
@@ -21,44 +21,44 @@ img {
   cursor: pointer;
 }
 
-#ll1 {
+#page-footer #ll1 {
    width: 12%;
    min-width: 88px;
 }
 
-#ll2 {
+#page-footer #ll2 {
    width: 40%;
    min-width: 90px;
    cursor: text;
 }
 
-#ll3 {
+#page-footer #ll3 {
    width: 14.5%;
 }
 
-#ll4 {
+#page-footer #ll4 {
    width: 13.5%;
 }
 
-#ll5 {
+#page-footer #ll5 {
    width: 11.5%;
 }
 
-#ll5:hover div {
+#page-footer #ll5:hover div {
   display: block;
 }
 
-#glinks {
+#page-footer #glinks {
   width:0px;
   display: none;
   position:absolute;
   width: calc(60% - 20px);
   height: 225px;
-  top: 8px;
+  bottom: 25px;
   right: 10px;
 }
 
-#glinks .popup {
+#page-footer #glinks .popup {
   width: 100%;
   height: calc(100% - 15px);
   border: solid 0.5px #525252;
@@ -66,7 +66,7 @@ img {
   z-index: 999;
 }
 
-#glinks .popup .list {
+#page-footer #glinks .popup .list {
   width: calc(100%/3 - 10px);
   height: calc(100% - 25px);
   padding: 25px 0px 0px 10px;
@@ -74,7 +74,7 @@ img {
   display: inline-block;
 }
 
-#glinks .highlight {
+#page-footer #glinks .highlight {
   display: none;
   width: 50px;
   height: 3px;
@@ -86,29 +86,29 @@ img {
 }
 
 @media all and (max-width: 1112px) {
-  #glinks .highlight {
+  #page-footer #glinks .highlight {
     right: calc(46% + 2px);
   }
 }
 
 @media all and (max-width: 510px) {
-  .bline {
+  #page-footer .bline {
     height: 59px !important;
   }
 
-  .bline .link {
+  #page-footer .bline .link {
     float: left !important;
     display: block !important;
     width: 100% !important;
     height: 19px;
   }
 
-  .bline .link.right {
+  #page-footer .bline .link.right {
     position: relative;
     top: -42px;
   }
 
-  .bline #ll5:hover div {
+  #page-footer .bline #ll5:hover div {
     display: none !important;
   }
 }

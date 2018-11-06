@@ -1,22 +1,22 @@
-.block {
+#page-footer .block {
   float: left;
   display: inline-block;
   padding: 0px 0px 0px 8px;
 }
 
-.block.internal {
+#page-footer .block.internal {
   width: calc(20% - 8px);
 }
 
-.block.external {
+#page-footer .block.external {
   width: calc(40% - 8px);
 }
 
-.block.open {
+#page-footer .block.open {
   height: 185px !important;
 }
 
-.expand {
+#page-footer .expand {
   position: absolute;
   display: none;
   right: 20px;
@@ -24,19 +24,19 @@
   height: 20px;
 }
 
-.expand i {
+#page-footer .expand i {
   font-size: 16px;
   color: #7e7e7e;
   cursor: pointer;
 }
 
-.expand i:hover {
+#page-footer .expand i:hover {
   color: #ffffff;
 }
 
 @media all and (max-width: 510px) {
 
-  .block {
+  #page-footer .block {
     display: block !important;
     width: calc(100% - 8px) !important;
     height: 25px !important;
@@ -45,17 +45,15 @@
     padding: 10px 0px 0px 8px;
   }
 
-  .block.closed .expand {
+  #page-footer .block.closed .expand {
     display: inline-block;
   }
 
-  .social {
+  #page-footer .social {
     float: left !important;
   }
 
-  .social .circle {
+  #page-footer .social .circle {
     margin: 0px 12px 12px 0px !important;
   }
-
 }
-
