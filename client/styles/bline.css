@@ -22,26 +22,26 @@
 }
 
 #page-footer #ll1 {
-   width: 12%;
-   min-width: 88px;
+  width: 12%;
+  min-width: 88px;
 }
 
 #page-footer #ll2 {
-   width: 40%;
-   min-width: 90px;
-   cursor: text;
+  width: 40%;
+  min-width: 90px;
+  cursor: text;
 }
 
 #page-footer #ll3 {
-   width: 14.5%;
+  width: 14.5%;
 }
 
 #page-footer #ll4 {
-   width: 13.5%;
+  width: 13.5%;
 }
 
 #page-footer #ll5 {
-   width: 11.5%;
+  width: 11.5%;
 }
 
 #page-footer #ll5:hover div {
@@ -51,10 +51,10 @@
 #page-footer #glinks {
   width:0px;
   display: none;
-  position:absolute;
+  position: absolute;
   width: calc(60% - 20px);
   height: 225px;
-  bottom: 25px;
+  bottom: -1195px;
   right: 10px;
 }
 
